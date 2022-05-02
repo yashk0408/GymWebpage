@@ -1,0 +1,209 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+.container{
+    width: 100%;
+    min-width: 100vh;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+    overflow: hidden;
+    background-color: black;
+
+}
+.navbar{
+    display: flex;
+    width: 100%;
+    align-items: center;
+
+}
+.logo{
+    width: 10%;
+    cursor: pointer;
+    margin: 10px 0;
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul a{
+    color: aliceblue;
+
+}
+nav ul li{
+    list-style:circle;
+    display: inline-block;
+    margin-right: 30px;
+}
+.bgImage1{
+    width: 1519px;
+}
+nav ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Roboto Mono', monospace;
+    
+}
+nav ul li a:hover {
+    font-weight: bold;
+    font-family: 'Roboto Mono', monospace;
+    text-decoration: underline white;
+}
+.popClass{
+    font-weight: bolder;
+    font-size: 50px;
+    font-family: 'Oswald', sans-serif;
+    margin: 30px 100px;
+    margin-top: 80px;
+}
+.grid-container{
+    display: grid;
+    column-gap: 18%;
+    row-gap: 10%;
+    grid-template-columns: auto auto;
+    margin: 80px 0px;
+    width: 100%;
+    justify-content: center;
+}
+
+.grid-items img{
+    width: 495px;
+    height: 400px;
+}
+.grid-items{
+    width: fit-content;
+}
+#text1{
+    position: relative;
+    bottom: 67px;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5); /* Black see-through */
+    color: #f1f1f1;
+    width: 100%;
+    transition: .5s ease;
+    opacity:0;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+    width: 495px;
+    font-family: 'Oswald', sans-serif;
+}
+#text2{
+    position: relative;
+    bottom: 67px;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5); /* Black see-through */
+    color: #f1f1f1;
+    width: 100%;
+    transition: .5s ease;
+    opacity:0;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+    width: 495px;
+    font-family: 'Oswald', sans-serif;
+}
+#text3{
+    position: relative;
+    bottom: 67px;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5); /* Black see-through */
+    color: #f1f1f1;
+    width: 100%;
+    transition: .5s ease;
+    opacity:0;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+    width: 495px;
+    font-family: 'Oswald', sans-serif;
+}
+#text4{
+    position: relative;
+    bottom: 67px;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5); /* Black see-through */
+    color: #f1f1f1;
+    width: 100%;
+    transition: .5s ease;
+    opacity:0;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+    width: 495px;
+    font-family: 'Oswald', sans-serif;
+}
+.cont1:hover #text1{
+    opacity: 1;
+}
+.cont2:hover #text2{
+    opacity: 1;
+}
+.cont3:hover #text3{
+    opacity: 1;
+}
+.cont4:hover #text4{
+    opacity: 1;
+}
+.cont1{
+    width: 495px;
+}
+.clsbtn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+#btn1{
+   
+    color: #ffffff;
+    font-size: 20px;
+    background: #ff1919;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    font-family: 'Radio Canada', sans-serif;
+    height: 40px;
+  }
+
+#btn1:hover {
+    background: #fc3c4c;
+    background-image: -webkit-linear-gradient(top, #fc3c4c, #d93434);
+    background-image: -moz-linear-gradient(top, #fc3c4c, #d93434);
+    background-image: -ms-linear-gradient(top, #fc3c4c, #d93434);
+    background-image: -o-linear-gradient(top, #fc3c4c, #d93434);
+    background-image: linear-gradient(to bottom, #fc3c4c, #d93434);
+    text-decoration: none;
+}
+h1{
+    position: absolute;
+    top: 116px;
+    left: 139px;
+    font-family: 'Radio Canada', sans-serif;
+    font-weight: bold;
+    font-size: 60px;
+
+}
+.bgImg2{
+    width: 1519px;
+}
+.bg2{
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.bg2Text{
+    position: absolute;
+    top: 223px;
+    left: 139px;
+    color: #f1f1f1;
+    width: 707px;
+    text-align: left;
+    font-size: 18px;
+    font-family: 'DM Sans', sans-serif;
+}
